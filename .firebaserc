@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "collegtimetable": {
+      "hosting": {
+        "ClgTT": [
+          "collegtimetable"
+        ]
+      }
+    }
+  }
+}

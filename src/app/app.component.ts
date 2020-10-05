@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ClgTT';
+  d = new Date();
+  n = this.d.getDay();
+  m = this.d.getMonth();
+  M = this.m+1;
+  da = this.d.getDate();
+  y = this.d.getFullYear();
 }

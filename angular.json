@@ -117,8 +117,16 @@
               "devServerTarget": "ClgTT:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "ClgTT"
+    }
+  },
+  "defaultProject": "ClgTT",
+  "cli": {
+    "analytics": "ba440068-4df5-48ed-a897-586ece68e758"
+  }
 }
