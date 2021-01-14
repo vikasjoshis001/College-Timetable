@@ -14,6 +14,9 @@ export class DailyTTComponent implements OnInit {
   M = this.m+1;
   da = this.d.getDate();
   y = this.d.getFullYear();
+
+  h = this.d.getHours();
+  min = this.d.getMinutes();
   constructor() { }
 
   ngOnInit(): void {
